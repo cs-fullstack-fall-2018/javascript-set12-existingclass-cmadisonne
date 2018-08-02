@@ -22,6 +22,12 @@ class Person {
 }
 
 function main() {
+var firstPerson = new Person("Lotus", 77, 135, 6);
+var secondPerson = new Person("Maddi", 20, 120, 5);
+alert("Lotus's BMI: " + firstPerson.bodyMassIndex());
+alert("Maddi's BMI: " + secondPerson.bodyMassIndex());
+var personArray = [firstPerson , secondPerson];
+personArray[0].printPerson();
 
 }
 
